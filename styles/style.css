@@ -228,37 +228,14 @@ body {
   /* bottom: 50%; */
 }
 
-/* portfolio-item > portfolio-caption > portfolio-caption-content > project-name */
-
-/* .portfolio .portfolio-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
+.btn-primary {
+  background-color: var(--main-color);
+  border: 0;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
+.btn-primary:hover {
   background-color: var(--secondary-color);
 }
-
-.portfolio
-  .portfolio-item
-  .portfolio-item-caption
-  .portfolio-item-caption-content {
-  font-size: 1.5rem;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-} */
 
 @media (min-width: 440px) {
   .card-height {

@@ -91,8 +91,8 @@
                           Frontend Web Developer 👩‍💻 Gamer 🎮 Coffee Enthusiast
                           ☕
                         </p>
-                        <p class="text-caption"></p>
-                        <p class="text-caption"></p>
+                        <!-- <p class="text-caption"></p>
+                        <p class="text-caption"></p> -->
                       </div>
                     </div>
                   </div>
@@ -115,7 +115,7 @@
                   class="d-flex flex-column justify-content-center align-items-center text-center"
                 >
                   <img
-                    src="/assets/images/profile.jpg"
+                    src="assets/images/profile.jpg"
                     alt="profile avatar"
                     class="profile-circle"
                   />
@@ -527,7 +527,62 @@
         </div>
         <div class="container mt-5">
           <div class="row">
-            <h2 class=""></h2>
+            <h2 class="text-title text-shadow text-center mb-3">
+              Let's get in touch!
+            </h2>
+            <hr class="horizontol-rule mb-4" />
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8 p-3">
+              <form id="contactForm">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingName"
+                    placeholder="John Doe"
+                  />
+                  <label for="floatingName">Full Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingEmail"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingEmail">Email Address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="floatingPhone"
+                    placeholder="123 456-7890"
+                  />
+                  <label for="floatingPhone">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    type="text"
+                    class="form-control"
+                    id="floatingMessage"
+                    placeholder="Enter your message here"
+                    style="height: 10rem"
+                  ></textarea>
+                  <label for="floatingMessage">Message</label>
+                </div>
+                <div class="d-grid">
+                  <button
+                    id="submitButton"
+                    class="btn btn-primary btn-xl"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
