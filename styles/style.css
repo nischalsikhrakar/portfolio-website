@@ -276,8 +276,8 @@ body {
   color: var(--main-color);
 }
 
-@media (min-width: 440px) {
+/* @media (min-width: 440px) {
   .card-height {
     height: 275px;
   }
-}
+} */
