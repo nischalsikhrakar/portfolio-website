@@ -275,9 +275,3 @@ body {
   border-radius: 5px;
   color: var(--main-color);
 }
-
-/* @media (min-width: 440px) {
-  .card-height {
-    height: 275px;
-  }
-} */
